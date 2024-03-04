@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400,500,600,700&display=swap');
+
+body { 
+    background-color: #6420AA;
+    text-align: center; 
+}
+
+h1 {
+    font-size: large;
+    text-decoration: underline;
+    color: #241a2b;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(211, 175, 175, 0.75);
+}
+
+.box {
+    width: 50%;
+    margin: 0 auto; 
+    border: 1px solid #000000;
+    box-shadow: 20px 20px 37px 20px rgba(51, 20, 20, 0.75);
+    padding: 30px; 
+}
+
+.Classone img{
+    width: 130px;
+    height: 140px;
+    border: 2px dashed rgb(97, 99, 92);
+    box-shadow: 10px 10px 37px 0px rgba(51, 20, 20, 0.75);
+}
+
+.Classfour img {
+    width: 250px;
+    height: 125px;
+    border: 2px dashed rgb(97, 99, 92);
+    box-shadow: 10px 10px 37px 0px rgba(51, 20, 20, 0.75);
+}
+
+.Classfour,
+.Classone {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+
+h3 {
+    color: #EED3D9;
+    font-size: 15px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+span{
+    color: #ffffff;
+    text-shadow: 5px 5px 10px rgb(247, 0, 0);
+}
+
+#Classtwo{
+    text-transform: uppercase;
+    text-decoration: underline rgb(231, 0, 0);
+}
+
+#Classsix{
+    text-transform: uppercase;
+    text-decoration: underline rgb(231, 0, 0);
+}
+#Classfive{
+    text-decoration: line-through;
+}
